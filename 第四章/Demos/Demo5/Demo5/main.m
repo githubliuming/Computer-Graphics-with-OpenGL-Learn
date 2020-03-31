@@ -92,6 +92,11 @@ int main(int argc, const char * argv[]) {
         glutReshapeFunc(refreshep);
         glutMainLoop();
         
+        
+        NSArray * array = @[@(1),@(1),@(1),@(1),@(3)];
+        
+        NSArray<NSString *> *nubs = @[@(1),@(1),@(1),@(1),@(3)];
+        
     }
     return 0;
 }
